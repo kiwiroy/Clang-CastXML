@@ -15,11 +15,13 @@ $modules{$_} = $_ for qw(
   ExtUtils::MakeMaker
   File::Which
   Moo
+  Moo::Role
   Path::Tiny
   Ref::Util
   StackTrace::Auto
   Test2::V0
   Test::XML
+  Text::Shellwords
   Throwable
   XML::Parser
 );
